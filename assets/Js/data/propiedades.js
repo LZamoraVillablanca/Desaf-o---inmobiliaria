@@ -91,7 +91,7 @@ const propiedadesAlquiler = [
         descripcion:"casa grande en localidad con abunante vegetacion",
         ubicacion:"Clemente Holzapfel 430, Pucón",
         distribucion:"3 Habitaciones |  1 Baños",
-        precio: 3.200,
+        precio: 3200,
         fumadores:true,
         mascotas:true
     }
