@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration:none;
+}
+.bigContainer{
+    background-color: #EFD595;
+}
+.nav{
+    font-size: 35px;
+    background-color: #EF9595;
+    display: flex;
+    align-items: end;
+    gap: 52px;
+}
+
+.cover {
+    width: 100%;
+    height: 40vh;
+    background-image: url('../img/img-main.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #EFB495;
+}
+
+.cover>p {
+    font-size: 60px;
+    font-family: 'Birthstone';
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    background-color: #00000000;
+}
+
+h2 {
+    text-align: center;
+    padding: 2%;
+    background-color: #EFD595;
+}
+
+.dinamicCard {
+    border: 1px solid #00000048;
+    border-radius: 2%;
+}
+
+#venta img {
+height: auto;
+min-height: 500px;
+width: 620px;
+border-radius: 11px;
+}
+
+#alquiler, #venta {
+    display: flex;
+    justify-content: space-around;
+    background-color: #EBEF95;
+    padding: 1%;
+    
+}
+
+#alquiler img {
+    height: auto;
+    min-height: 500px;
+    width: 620px;
+    border-radius: 11px;
+    }
+    
+.footer{
+    padding: 0.5em;;
+    background-color: #EF9595;
+}
+/* ------------ventas----------- */
+.soloVenta #venta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    padding: 4%;
+    border: 1px solid #EFB495;
+    border-radius: 10px;
+}
+.soloVenta .dinamicCard{
+text-align: center;
+}
+.soloVenta p{
+    display: flex;
+    justify-content: center;
+}
+/* ------------alquiler----------- */
+
+.soloAlquiler #alquiler {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    padding: 4%;
+    border: 1px solid #EFB495;
+    border-radius: 10px;
+}
+.soloAlquiler .dinamicCard{
+text-align: center;
+}
+.soloAlquiler p{
+    display: flex;
+    justify-content: center;
+}
